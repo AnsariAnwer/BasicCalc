@@ -1,0 +1,22 @@
+x=int(input('Enter a number '))
+o=input('Enter an Operation ')
+y=int(input('Enter a number '))
+
+
+def add(x,y):
+    return x+y
+def sub(x,y):
+    return x-y
+def mul(x,y):
+    return x*y
+def div(x,y):
+    return x/y
+
+if o == '+':
+    print (x,"+", y,"=", add(x,y))
+elif o == '-':
+    print(x,"-", y,"=", sub(x,y))
+elif o == '*':
+    print(x,"*", y,"=", mul(x,y))
+elif o == '/':
+    print(x,"/", y,"=", div(x,y))
